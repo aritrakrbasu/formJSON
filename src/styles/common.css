@@ -1,0 +1,98 @@
+:root
+{
+    --theme : #3065ff;
+    --theme-dark : #0a36cd
+}
+
+a
+{
+    text-decoration: none !important;
+}
+
+body
+{
+    background-color: #e5e9f4 !important;
+}
+
+.json__holder
+{
+    background-color: var(--theme);
+    padding: 20px;
+    color:#fff;
+    min-height: 100vh;
+    height: 100%;
+}
+
+.json__holder h1
+{
+    font-size: 40px;
+    font-weight: bolder;
+    opacity: 1;
+    color: #fff;
+}
+
+.theme__textarea
+{
+    background-color: var(--theme-dark) !important;
+    border :1px solid transparent !important;
+    color: #fff !important;
+    white-space: pre-wrap;
+}
+
+.dynamic__form
+{
+    background-color: #fff;
+    padding: 40px;
+    box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.295);
+    width: 80%;
+}
+
+.form__holder
+{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background: rgb(255,255,255);
+    background: linear-gradient(90deg, rgba(255,255,255,1) 74%, rgba(48,101,255,1) 74%);    
+}
+
+.share__holder
+{
+    background: rgb(255,255,255);
+    background: linear-gradient(90deg,  rgba(48,101,255,1) 26%, rgba(255,255,255,1) 26%);    
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.share__button__holder
+{
+    background-color: #fff;
+    padding: 40px;
+    box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.295);
+    width: 80%;
+}
+
+.theme__btn
+{
+    background-color: var(--theme-dark) !important ;
+    border: 1px solid var(--theme-dark) !important ;
+    color: #fff !important;
+    border-radius: 20px !important;
+    padding: 20px 0px !important;
+    width: 100% !important;    
+    font-weight: bold !important;
+    margin:10px 0px;
+    display: block;
+    text-align: center;
+}
+
+.counter
+{
+    font-weight: bold;
+    opacity: 0.5;
+}
